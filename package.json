@@ -1,0 +1,33 @@
+{
+  "name": "potential-octo",
+  "version": "1.0.0",
+  "description": "A repository for GitHub Copilot Task Agent exploration and development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js --dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "copilot",
+    "github",
+    "task-agent",
+    "ai",
+    "automation"
+  ],
+  "author": "GitHub Copilot",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "eslint": "^8.40.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
